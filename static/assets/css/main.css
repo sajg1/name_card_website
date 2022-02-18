@@ -702,8 +702,9 @@
 
 	#main {
 		position: relative;
-		max-width: 100%;
 		min-width: 27em;
+		max-width: 35em;
+		max-height: 45em;
 		padding: 4.5em 3em 3em 3em ;
 		background: #ffffff;
 		border-radius: 4px;
@@ -734,6 +735,8 @@
 				display: block;
 				margin: 0 auto;
 				border-radius: 100%;
+				width: 40%;
+				height: 40%;
 				box-shadow: 0 0 0 1.5em #ffffff;
 			}
 
@@ -830,7 +833,7 @@
 		perspective: 1000px;
 		position: relative;
 		min-height: 100%;
-		padding: 1.5em;
+		padding: 4em;
 		z-index: 2;
 	}
 
